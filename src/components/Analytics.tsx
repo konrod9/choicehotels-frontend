@@ -2,8 +2,10 @@
 
 import { useEffect } from "react";
 
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-XXXXXXXXXX";
-const GTM_CONTAINER_ID = process.env.NEXT_PUBLIC_GTM_CONTAINER_ID || "GTM-XXXXXXXXXX";
+const GA_MEASUREMENT_ID =
+  process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-J8B4PSG433";
+const GTM_CONTAINER_ID =
+  process.env.NEXT_PUBLIC_GTM_CONTAINER_ID || "GTM-MT9JXC5R";
 
 declare global {
   interface Window {
