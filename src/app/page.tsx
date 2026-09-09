@@ -1,4 +1,3 @@
-import { Analytics } from "@/components/Analytics";
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
 import { Features } from "@/components/Features";
@@ -14,9 +13,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <>
-      <Analytics />
-      <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col">
         <Navigation />
         <main className="flex-1">
           <Hero />
@@ -24,7 +21,6 @@ export default function Home() {
           <CTA />
         </main>
         <Footer />
-      </div>
-    </>
+    </div>
   );
 }
