@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/spec.json",
   "framework": "nextjs",
-  "regions": ["iad1", "sfo1"],
+  "regions": ["iad1"],
   "headers": [
     {
       "source": "/(.*)",
