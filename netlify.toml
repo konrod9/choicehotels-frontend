@@ -1,0 +1,9 @@
+{
+  "site_name": "Choice Hotels Landing Page",
+  "site_url": "https://choicehotels-landing.vercel.app",
+  "build_command": "next build",
+  "dev_command": "next dev",
+  "install_command": "npm install",
+  "framework": "nextjs",
+  "regions": ["iad1", "sfo1"]
+}
